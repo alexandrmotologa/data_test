@@ -1,10 +1,10 @@
 from pyquery import PyQuery as pq
 import json
 from time import sleep
-from fake_useragent import UserAgent
 
+from fake_useragent import UserAgent
 ua = UserAgent()
-headers = {'User-Agent':str(ua.random)}
+headers = {'User-Agent': str(ua.random)}
 ua.update()
 
 cat_target = 'https://www.luxuryestate.com/france/ile-de-france/paris/paris'
